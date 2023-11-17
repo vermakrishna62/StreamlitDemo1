@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(page_title="Demo Page", page_icon=":tada:")
 
@@ -7,9 +8,11 @@ st.write("Here's our first attempt at using data to create a table: nopes")
 
 # st.line_chart(chart_data)
 
-# map_data = pd.DataFrame(
-#     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
-#     columns=['lat', 'lon'])
+map_data = pd.DataFrame(
+   {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
+})
 
 # st.map(map_data)
 
