@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Demo Page", page_icon=":tada:")
 
 
-st.write("Here's our first attempt at using data to create a table:")
+st.write("Here's our first attempt at using data to create a table: nopes")
 
 # st.line_chart(chart_data)
 
@@ -27,7 +27,7 @@ left_column.button("Press me!")
 # Or even better, call Streamlit functions inside a "with" block:
 with right_column:
     chosen = st.radio(
-        "Sorting hat", ("Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin")
+        "Sorting hat", ("Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin","Dragon Ball")
     )
     st.write("---")
     st.write(f"You are in {chosen} house!")
