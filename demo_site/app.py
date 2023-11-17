@@ -9,11 +9,11 @@ st.write("Here's our first attempt at using data to create a table: nopes")
 
 # st.line_chart(chart_data)
 
-map_data = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4], columns=["lat", "lon"]
-)
+# map_data = pd.DataFrame(
+#     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4], columns=["lat", "lon"]
+# )
 
-st.map(map_data)
+# st.map(map_data)
 
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?", ("Email", "Home phone", "Mobile phone")
