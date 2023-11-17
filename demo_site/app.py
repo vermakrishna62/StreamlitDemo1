@@ -14,7 +14,7 @@ map_data = pd.DataFrame(
   "duration": [50, 40, 45]
 })
 
-# st.map(map_data)
+st.map(map_data)
 
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?", ("Email", "Home phone", "Mobile phone")
